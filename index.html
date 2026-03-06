@@ -6,18 +6,17 @@
     <title>Protocolo Vórtice | Arquitectura de Flujo</title>
     <style>
         body, html { margin: 0; padding: 0; width: 100%; background-color: #000; color: #fff; font-family: sans-serif; overflow-x: hidden; }
-        section { min-height: 48vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px 0; }
+        section { min-height: 50vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 40px 0; }
         img { max-width: 90%; max-height: 45vh; object-fit: contain; }
-        .frase { margin-top: 10px; font-weight: 400; letter-spacing: 2px; text-transform: uppercase; font-size: 0.85rem; color: #fff; max-width: 85%; }
+        .frase { margin-top: 15px; font-weight: 400; letter-spacing: 2px; text-transform: uppercase; font-size: 0.85rem; color: #fff; max-width: 85%; }
         
-        /* Contenedor de Logos Elevados */
-        .logos-container { display: flex; gap: 100px; justify-content: center; align-items: center; margin-top: -80px; margin-bottom: 20px; }
+        /* Contenedor de Logos - Única aparición */
+        .logos-container { display: flex; gap: 100px; justify-content: center; align-items: center; margin-top: -60px; margin-bottom: 20px; }
         .logo-img { width: 100px; height: auto; border: none; }
         
-        /* Footer y Contador */
-        footer { width: 100%; text-align: center; padding: 50px 0; border-top: 1px solid #333; margin-top: 40px; }
-        .texto-legal { font-size: 0.8rem; color: #FFFFFF; letter-spacing: 1px; margin-top: 20px; }
-        .contador-box { margin-bottom: 20px; opacity: 0.8; }
+        /* Pie de página limpio sin contador */
+        footer { width: 100%; text-align: center; padding: 60px 0; border-top: 1px solid #333; margin-top: 50px; }
+        .texto-legal { font-size: 0.8rem; color: #FFFFFF; letter-spacing: 1px; font-weight: bold; }
     </style>
 </head>
 <body>
@@ -32,9 +31,11 @@
         <div class="frase">La unidad esencial del flujo.</div>
     </section>
 
-    <section>
+    <section style="min-height: 40vh;">
         <div class="logos-container">
             <img src="Logo1.png" class="logo-img">
+            <img src="Logo2.png" class="logo-img">
+        </div>            <img src="Logo1.png" class="logo-img">
             <img src="Logo2.png" class="logo-img">
         </div>
         <div class="frase">Vórtice: La armonía del flujo, la precisión del nodo.</div>
